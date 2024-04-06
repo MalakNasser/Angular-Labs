@@ -1,0 +1,36 @@
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.button-section button {
+  background-color: #14acda;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-section button:hover {
+  background-color: #097799;
+}

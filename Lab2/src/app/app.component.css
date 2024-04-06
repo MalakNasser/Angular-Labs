@@ -1,0 +1,14 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 70%;
+  margin: 20px;
+}
