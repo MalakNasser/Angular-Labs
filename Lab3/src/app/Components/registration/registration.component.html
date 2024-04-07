@@ -1,0 +1,36 @@
+<div class="form-container">
+  <h1>Registration</h1>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input
+      [(ngModel)]="name"
+      type="text"
+      class="form-control"
+      id="name"
+      placeholder="Enter name"
+    />
+    <p class="error-message" *ngIf="name.length < 3">
+      Name should be at least 3 characters
+    </p>
+
+    <label for="age">Age</label>
+    <input
+      [(ngModel)]="age"
+      type="text"
+      class="form-control"
+      id="age"
+      placeholder="Enter age"
+    />
+    <p class="error-message" *ngIf="+age < 25 || +age > 30">
+      Age should be between 25 and 30
+    </p>
+
+    <input
+      type="submit"
+      class="btn btn-primary"
+      value="Submit"
+      (click)="Send()"
+      [disabled]="name.length < 3 || +age < 25 || +age > 30"
+    />
+  </div>
+</div>
