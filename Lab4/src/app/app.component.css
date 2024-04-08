@@ -1,0 +1,12 @@
+.content {
+  padding: 20px;
+  width: fit-content;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 2px rgba(42, 42, 42, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

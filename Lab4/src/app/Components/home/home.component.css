@@ -1,0 +1,35 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  width: 25%;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.validation-message {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #dc3545;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.text-success {
+  color: #28a745;
+}

@@ -1,0 +1,31 @@
+<div>
+  <ul
+    class="navbar-nav d-flex flex-row justify-content-center align-items-center"
+  >
+    <li>
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/students"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Students</a
+      >
+    </li>
+    <li>
+      <a routerLink="/student/5" routerLinkActive="active">Student Details</a>
+    </li>
+    <li>
+      <a routerLink="/profile" routerLinkActive="active">Profile</a>
+    </li>
+    <li>
+      <a routerLink="/error" routerLinkActive="active">Error</a>
+    </li>
+  </ul>
+</div>
