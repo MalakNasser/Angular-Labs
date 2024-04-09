@@ -1,0 +1,36 @@
+<div *ngIf="student" class="form-container">
+  <input
+    type="text"
+    id="name"
+    [(ngModel)]="student.name"
+    placeholder="Name"
+    class="form-input"
+  />
+  <input
+    type="number"
+    id="age"
+    [(ngModel)]="student.age"
+    placeholder="Age"
+    class="form-input"
+  />
+  <input
+    type="email"
+    id="email"
+    [(ngModel)]="student.email"
+    placeholder="Email"
+    class="form-input"
+  />
+  <input
+    type="text"
+    id="phone"
+    [(ngModel)]="student.phone"
+    placeholder="Phone"
+    class="form-input"
+  />
+  <input
+    class="form-button"
+    type="button"
+    (click)="update(student.name, student.age, student.phone, student.email)"
+    value="Update"
+  />
+</div>

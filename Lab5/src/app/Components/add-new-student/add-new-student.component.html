@@ -1,0 +1,18 @@
+<div class="form-container">
+  <input #name id="name" type="text" placeholder="Name" class="form-input" />
+  <input #age id="age" type="number" placeholder="Age" class="form-input" />
+  <input #phone id="phone" type="text" placeholder="Phone" class="form-input" />
+  <input
+    #email
+    id="email"
+    type="email"
+    placeholder="Email"
+    class="form-input"
+  />
+  <input
+    class="form-button"
+    type="button"
+    (click)="add(name.value, age.value, phone.value, email.value)"
+    value="Add"
+  />
+</div>

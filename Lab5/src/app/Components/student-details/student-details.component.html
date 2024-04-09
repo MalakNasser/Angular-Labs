@@ -1,0 +1,32 @@
+<div *ngIf="student" class="student-details">
+  <div class="row text-d-flex justify-content-center">
+    <div class="col-5 details">
+      <p>Name: {{ student.name }}</p>
+      <p>Age: {{ student.age }}</p>
+      <p>Email: {{ student.email }}</p>
+      <p>Phone: {{ student.phone }}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <input
+        class="update-button"
+        type="button"
+        value="Update"
+        (click)="goToUpdatePage(student.id)"
+      />
+      <input
+        type="button"
+        (click)="delete()"
+        value="Delete"
+        class="delete-button"
+      />
+    </div>
+  </div>
+</div>
+<div *ngIf="!student" class="loading-container">
+  <div class="alert alert-danger">
+    <h1>Loading...</h1>
+  </div>
+</div>

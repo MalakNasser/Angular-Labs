@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "id": "19fb",
+      "name": "Malek",
+      "age": "16",
+      "phone": "011111111",
+      "email": "malek@gmail.com"
+    },
+    {
+      "id": "d3e8",
+      "name": "mariam",
+      "age": "27",
+      "phone": "01010101010",
+      "email": "mariam@gmail.com"
+    },
+    {
+      "id": "f838",
+      "name": "Malak2",
+      "age": "20",
+      "phone": "01010101010",
+      "email": "malakrahmy26@gmail.com"
+    }
+  ]
+}
